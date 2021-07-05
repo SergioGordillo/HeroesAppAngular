@@ -8,7 +8,7 @@ In process.
 
 # Which technologies did I use to develop this app? :thinking:
 
-It is a web app made with Angular 12 + TypeScript + Angular Material <br>
+It is a web app made with Angular 12 + TypeScript + Angular Material. <br>
 I used Angular-CLI to create my Angular App. <br>
 
 # Which is the purpose of this web app? :thinking:
@@ -17,7 +17,7 @@ It is a web app I made based on Fernando Herrera Angular course 🧐. I havent m
 
 ❤️ Good practices about making reusable components in Angular. <br>
 ❤️ Good practices about Angular folder structure. <br>
-:heart:  <br>
+:heart: Using Router Module and RouterLink.<br>
 :heart:  <br>
 :heart:  <br>
 :heart: <br>
