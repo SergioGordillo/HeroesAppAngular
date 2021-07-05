@@ -1,3 +1,30 @@
+# Can I try this web app? :open_mouth:
+
+Not yet, it is being developed currently.
+
+# What can you do with this web app? :thinking:
+
+In process.
+
+# Which technologies did I use to develop this app? :thinking:
+
+It is a web app made with Angular 12 + TypeScript + Angular Material. <br>
+I used Angular-CLI to create my Angular App. <br>
+
+# Which is the purpose of this web app? :thinking:
+
+It is a web app I made based on Fernando Herrera Angular course 🧐. I havent made barely changes compared to the project that Fernando Herrera made on the course, but just because I want to learn and adquire the Angular knowledge 🤓. I know the styles are very basic, but I just focused on Angular stuff. I learnt with this project about:
+
+❤️ Good practices about making reusable components in Angular. <br>
+❤️ Good practices about Angular folder structure. <br>
+:heart: Using Router Module and RouterLink.<br>
+:heart:  <br>
+:heart:  <br>
+:heart: <br>
+:heart:  <br>
+:blue_heart: TypeScript. <br>
+:art: Angular Material  <br>
+
 # HeroesAppAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
