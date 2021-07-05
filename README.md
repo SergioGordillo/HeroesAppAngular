@@ -15,15 +15,15 @@ I used Angular-CLI to create my Angular App. <br>
 
 It is a web app I made based on Fernando Herrera Angular course 🧐. I havent made barely changes compared to the project that Fernando Herrera made on the course, but just because I want to learn and adquire the Angular knowledge 🤓. I know the styles are very basic, but I just focused on Angular stuff. I learnt with this project about:
 
-:heart: <br>
-:heart:  <br>
+❤️ Good practices about making reusable components in Angular. <br>
+❤️ Good practices about Angular folder structure. <br>
 :heart:  <br>
 :heart:  <br>
 :heart:  <br>
 :heart: <br>
 :heart:  <br>
 :blue_heart: TypeScript. <br>
-:art:  <br>
+:art: Angular Material  <br>
 
 # HeroesAppAngular
 
