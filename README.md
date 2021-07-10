@@ -18,12 +18,14 @@ It is a web app I made based on Fernando Herrera Angular course 🧐. I havent m
 ❤️ Good practices about making reusable components in Angular. <br>
 ❤️ Good practices about Angular folder structure. <br>
 :heart: Using Router Module and RouterLink.<br>
-:heart:  <br>
-:heart:  <br>
-:heart: <br>
-:heart:  <br>
+:heart: Using children routes.  <br>
+:heart: Implementation of Lazy Load.  <br>
+:heart: Working with services. <br>
+:heart: Using Quicktype to generate interfaces. <br>
+:open_mouth: Using JSON Server to work with a non-SQL DB directly from the frontend side. <br>
 :blue_heart: TypeScript. <br>
-:art: Angular Material  <br>
+:art: Angular Material.  <br>
+:art: Angular Flex-Layout.  <br>
 
 # HeroesAppAngular
 
