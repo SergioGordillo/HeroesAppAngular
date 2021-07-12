@@ -22,6 +22,8 @@ It is a web app I made based on Fernando Herrera Angular course 🧐. I havent m
 :heart: Implementation of Lazy Load.  <br>
 :heart: Working with services. <br>
 :heart: Using Quicktype to generate interfaces. <br>
+:heart: Customized pipes. <br>
+:heart: How to do clean http requests.<br>
 :open_mouth: Using JSON Server to work with a non-SQL DB directly from the frontend side. <br>
 :blue_heart: TypeScript. <br>
 :art: Angular Material.  <br>
