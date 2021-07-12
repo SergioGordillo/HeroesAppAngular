@@ -17,11 +17,15 @@
     </p>
 
     <mat-card-actions>
-        <button mat-button color="warn">
+        <button mat-button color="warn"
+            [routerLink]="['/heroes', hero.id]"
+        >
             Read more...
         </button>
 
-        <button mat-button color="info">
+        <button mat-button color="info"
+          [routerLink]="['/heroes/edit', hero.id]"
+        >
             Edit
         </button>
     </mat-card-actions>
