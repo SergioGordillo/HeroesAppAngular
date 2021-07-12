@@ -11,6 +11,7 @@ import { environment } from '../../../environments/environment';
 export class HeroesService {
 
   private baseUrl:string=environment.baseUrl;
+  private limit:number=6;
 
   constructor(private http:HttpClient) { }
 
@@ -21,5 +22,10 @@ export class HeroesService {
   getHeroById(id:string):Observable<Hero>{
     const url=`${this.baseUrl}/heroes/${id}`
     return this.http.get<Hero>(url);
+  }
+
+  getSuggestions(term:string):Observable<Hero[]>{
+    const url=`${this.baseUrl}/heroes/?q=${term}&_limit=${this.limit}`
+    return this.http.get<Hero[]>(url);
   }
 }
