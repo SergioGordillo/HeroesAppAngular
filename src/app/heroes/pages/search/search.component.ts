@@ -12,6 +12,7 @@ export class SearchComponent implements OnInit {
 
   term: string=""; 
   heroes: Hero[]= [];
+  selectedHero!:Hero | undefined;
 
   constructor(private heroesService:HeroesService) { }
 
@@ -19,18 +20,23 @@ export class SearchComponent implements OnInit {
   }
 
   search(term:string){
-    this.heroesService.getSuggestions(this.term)
+    this.heroesService.getSuggestions(this.term.trim())
       .subscribe(heroes=>{this.heroes=heroes});
+     
   }
 
   optionSelected(event:MatAutocompleteSelectedEvent){
-    const heroId: string =event.option.value;
-    // const hero: Hero = this.heroesService.getHeroById(heroId).subscribe (hero=>hero=hero); 
-    // console.log(hero);
 
-   
-   
+    if (!event.option.value){
+      this.selectedHero=undefined;
+      return ;
+    }
 
+    const hero: Hero =event.option.value;
+    this.term=hero.superhero;
+
+    this.heroesService.getHeroById(hero.id!)
+      .subscribe(hero=> this.selectedHero=hero)
   }
 
 }

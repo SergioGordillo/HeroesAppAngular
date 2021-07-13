@@ -9,6 +9,11 @@ import { Hero } from '../../interfaces/heroes.interface';
       margin-top: 20px;
       min-height: 85vh;
     }
+
+    .mat-card-image{
+      max-height: 70vh;
+      max-width: 25vw;
+    }
 `]
 })
 export class HeroCardComponent {

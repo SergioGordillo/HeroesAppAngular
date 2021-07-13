@@ -3,7 +3,7 @@
         <h1>Heroes Search Engine</h1>
         <mat-divider></mat-divider>
     </div>
-    <div>
+    <div fxLayout="column">
         <h3>Search Engine</h3>
 
         <mat-form-field>
@@ -20,13 +20,28 @@
             <mat-autocomplete autoActiveFirstOption 
                               #auto="matAutocomplete" 
                               class="autocomplete"
-                              (optionSelected)="optionSelected($event)">
-              <mat-option *ngFor="let hero of heroes" [value]="hero.id">
+                              (optionSelected)="optionSelected($event)"
+                              >
+              <mat-option 
+                *ngFor="let hero of heroes" 
+                 [value]="hero">
                 {{hero.superhero}}
+              </mat-option>
+
+              <mat-option value="" *ngIf="heroes.length===0 && term.length>0">
+                Nothing found with the term: {{term}}
               </mat-option>
             </mat-autocomplete>
 
           </mat-form-field>
-
     </div>
+
+
+    <div *ngIf="selectedHero">
+      <app-hero-card [hero]="selectedHero"></app-hero-card>
+    </div>
+
+
 </div>
+
+

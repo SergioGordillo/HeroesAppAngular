@@ -28,4 +28,14 @@ export class HeroesService {
     const url=`${this.baseUrl}/heroes/?q=${term}&_limit=${this.limit}`
     return this.http.get<Hero[]>(url);
   }
+
+  addHero(hero:Hero):Observable<Hero>{
+    const url=`${this.baseUrl}/heroes`
+    return this.http.post<Hero>(url, hero); 
+  }
+
+  updateHero(hero:Hero):Observable<Hero>{
+    const url=`${this.baseUrl}/heroes/${hero.id}`
+    return this.http.put<Hero>(url, hero); 
+  }
 }
