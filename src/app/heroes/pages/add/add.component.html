@@ -61,18 +61,31 @@
                 [(ngModel)]="hero.alt_img">
         </mat-form-field>
 
-        <mat-divider></mat-divider>
 
-        <button 
-            mat-raised-button 
-            color="primary"
-            (click)="save()"
-            >
-            <mat-icon> save </mat-icon>
-            Save
-        </button>
+        <div fxLayout>
+            <button 
+                mat-raised-button 
+                color="primary"
+                (click)="save()"
+                >
+                <mat-icon> save </mat-icon>
+                Save
+            </button>
+
+            <span class="spacer"></span>
+        
+            <button *ngIf="hero.id"
+                mat-raised-button
+                color="warn"
+                (click)="delete()">
+                <mat-icon>delete</mat-icon>
+                    Delete
+            </button>
+        </div>
 
     </div>
+
+
 
     <div fxFlex="50">
         <img [src]="hero | image"/>
