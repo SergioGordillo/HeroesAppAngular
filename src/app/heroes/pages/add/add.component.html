@@ -1,6 +1,9 @@
-<h1>New Hero <small> {{hero.superhero}} </small></h1>
+<h1  class="animate__animated animate__fadeIn">
+    {{ (hero.id) ? "Edit" : "New Hero"}} 
+    <small> {{hero.superhero}} </small>
+</h1>
 
-<div fxLayout="row" fxLayoutGap="40px" fxLayout.xs="column">
+<div fxLayout="row" fxLayoutGap="40px" fxLayout.xs="column"  class="animate__animated animate__fadeIn">
     <div fxFlex="50" fxLayout="column">
 
         <div fxLayout="row"
@@ -69,7 +72,7 @@
                 (click)="save()"
                 >
                 <mat-icon> save </mat-icon>
-                Save
+                {{ (hero.id) ? "Update" : "Save"}} 
             </button>
 
             <span class="spacer"></span>
