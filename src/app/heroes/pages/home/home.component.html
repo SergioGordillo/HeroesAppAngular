@@ -51,6 +51,8 @@
 
         <span class="spacer"></span>
 
+        <span *ngIf="auth">{{auth.user}}</span>
+
         <button 
             mat-icon-button
             (click)="logout()">
