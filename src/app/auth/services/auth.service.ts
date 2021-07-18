@@ -14,7 +14,6 @@ export class AuthService {
   private _auth: Auth | undefined;
 
   get showUser(){
-    console.log({...this._auth})
     return {...this._auth!};
   }
 
@@ -27,6 +26,12 @@ export class AuthService {
           tap(auth=>this._auth=auth)
       )
   }
+
+  logout(){
+    this._auth=undefined;
+  }
+
+
 }
 
 

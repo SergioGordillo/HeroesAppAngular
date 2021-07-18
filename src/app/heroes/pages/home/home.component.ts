@@ -14,7 +14,7 @@ import { Auth } from '../../../auth/interfaces/auth.interface';
 })
 export class HomeComponent implements OnInit {
 
-  auth!: Auth;
+  auth: Auth = this.showAuthAtHome;
 
   get showAuthAtHome(){
     return this.authService.showUser; 
@@ -23,7 +23,7 @@ export class HomeComponent implements OnInit {
   constructor(private router:Router, private authService:AuthService) { }
 
   ngOnInit(): void {
-  
+    this.showAuthAtHome;
   }
 
   logout(){
