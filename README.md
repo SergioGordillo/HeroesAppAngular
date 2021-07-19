@@ -1,3 +1,5 @@
+<img src="https://github.com/SergioGordillo/HeroesAppAngular/blob/main/heroesappangular.png" alt="Main Screen of Heroes App Angular"/>
+
 # Can I try this web app? :open_mouth:
 
 Yes. If you want to check it, you need to: <br>
