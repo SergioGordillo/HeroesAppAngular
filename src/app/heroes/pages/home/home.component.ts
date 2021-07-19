@@ -27,6 +27,7 @@ export class HomeComponent implements OnInit {
   }
 
   logout(){
+    localStorage.removeItem("id");
     this.router.navigate(['./auth'])
   }
 
