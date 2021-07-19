@@ -1,10 +1,23 @@
 # Can I try this web app? :open_mouth:
 
-Not yet, it is being developed currently.
+Yes. If you want to check it, you need to: <br>
+
+1) Download the project and install Node.js (https://nodejs.org/es/). After that, with the command `npm install` (https://docs.npmjs.com/cli/v7/commands/npm-install), you will install all the node_modules needed for the app to work. <br>
+2) Download the no-SQL DB for this project. You can download it from here (https://github.com/SergioGordillo/HeroesAppAngularDB). <br>
+3) Ok. So, open with your favourite IDE both projects (HeroesAppAngular and HeroesAppAngularDB). <br>
+4) HeroesAppAngularDB will run with the command `json-server --watch db.json` (https://www.npmjs.com/package/json-server). <br>
+5) HeroesAppAngular will run with the command `ng serve -o`. <br>
+
+So, enjoy the app :grinning:
 
 # What can you do with this web app? :thinking:
 
-In process.
+You can: <br>
+
+:superhero: Check a list of superheroes from your DB. <br>
+:superhero_man: Add, update and delete a hero from the DB. <br>
+:eyes: Looking for a superhero with our search engine. <br>
+
 
 # Which technologies did I use to develop this app? :thinking:
 
@@ -26,6 +39,7 @@ It is a web app I made based on Fernando Herrera Angular course 🧐. I havent m
 :heart: How to do clean http requests.<br>
 :heart: Creation of a basic login system. <br>
 :heart: Use of CanActivate and CanLoad guards. <br>
+:heart: Use of LocalStorage <br>
 :open_mouth: Using JSON Server to work with a non-SQL DB directly from the frontend side. <br>
 :blue_heart: TypeScript. <br>
 :art: Angular Material.  <br>
