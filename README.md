@@ -23,7 +23,7 @@ You can: <br>
 
 # Which technologies did I use to develop this app? :thinking:
 
-It is a web app made with Angular 12 + TypeScript + Angular Material + Animate.css <br>
+It is a web app made with Angular 12 + TypeScript + Angular Material + Angular Flex-Layout + Animate.css <br>
 I used Angular-CLI to create my Angular App. <br>
 
 # Which is the purpose of this web app? :thinking:
